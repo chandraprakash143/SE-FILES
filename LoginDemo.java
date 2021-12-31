@@ -30,7 +30,7 @@ public class LoginDemo extends JFrame implements ActionListener {
       // Adding the listeners to components..
       submit.addActionListener(this);
       add(panel, BorderLayout.CENTER);
-      setTitle("Please Login Here !");
+      setTitle("Login Page");
       setSize(450,350);
       setVisible(true);
    }
